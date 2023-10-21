@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test Game</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="preconnect" href="https://fonts.googlepis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" crossorigin>
+</head>
+<body>
+<div class="game">
+    <div class="name">Typing Speed Test Game</div>
+    <div class="container">
+        <div class="select">
+            <span>Choose The Level</span>
+            <select id="my-select">           
+                <option value="1" class="option1">1</option>
+                <option value="2" class="option2">2</option>
+                <option value="3" class="option3">3</option>
+            </select>
+        </div>
+        <div class="message">
+            You Are Playing On 
+            <span class="lvl">Level</span> & You Have <span class="seconds"></span> Seconds To Type The Word</span>
+        </div>
+        <div class="start">Start Playing</div>
+        <div class="the-word">Start Playing</div>
+        <input type="text" class="input">
+        <div class="upcoming-words">Words Will Show Here</div>
+        <div class="control">
+            <div class="time">Time Left: <span></span> Seconds</div>
+            <div class="score">Score: <span class="got">0</span> From <span class="total"></span></div>
+        </div>
+        <div class="finish"></div>
+    </div>
+</div>
+    <script src="./js/main2.js"></script>
+</body>
+</html>
